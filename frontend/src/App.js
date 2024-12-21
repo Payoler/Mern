@@ -1,8 +1,16 @@
-
+import {Container} from 'react-bootstrap';
+import Header from './components/Header';
 function App() {
   return (
     <>
-    <h2>Hello World</h2>
+    <Header />
+    <main className='py-3'>
+     
+    
+      <Container>
+      <h1>Welcome to Proshop</h1>
+      </Container>
+    </main>
     </>
   );
 }
